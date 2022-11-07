@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -8,6 +9,5 @@ html {
 
 body {
   margin: 0;
- /* background-image: url('./resources/back.jpg');*/
  background-color: rgb(85, 9, 9);
 }

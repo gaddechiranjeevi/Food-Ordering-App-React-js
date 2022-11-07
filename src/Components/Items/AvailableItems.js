@@ -84,7 +84,7 @@ const DUMMY_MEALS = [
     {
         id: 'm13',
         name:'Samosa',
-        description:'Deep-fried savory pastry filled with either spiced mashed potatoes',
+        description:'Deep-fried savory pastry filled with spiced mashed potatoes',
         price: 40
     }
 ]
