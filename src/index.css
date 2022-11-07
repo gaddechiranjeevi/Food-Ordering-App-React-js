@@ -8,4 +8,6 @@ html {
 
 body {
   margin: 0;
+ /* background-image: url('./resources/back.jpg');*/
+ background-color: rgb(85, 9, 9);
 }
