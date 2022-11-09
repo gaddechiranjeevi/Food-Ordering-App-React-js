@@ -90,17 +90,22 @@ const DUMMY_MEALS = [
 ]
 const AvailableItems = () => {
     const ItemsList = DUMMY_MEALS.map((Item) => (
-        <MealItem key ={Item.id}
+        <MealItem 
+          key ={Item.id}
+          id ={Item.id}
           name={Item.name}
           description={Item.description}
           price={Item.price} 
         />
     ));
-    return <section className={classes.Items}>
+    
+    return (
+    <section className={classes.Items}>
         <Card>
             <ul>{ItemsList}</ul>
         </Card>
     </section>
+    );
 };
      
 export default AvailableItems;
