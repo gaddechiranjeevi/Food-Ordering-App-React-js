@@ -10,17 +10,17 @@ const Cart = (props) => {
     const totalAmount = `Rs ${Ctx.totalAmount.toFixed(2)}`;
     const hasItems = Ctx.items.length > 0;
     const Ordering = ()=>{
-        console.log('Order Accepted.......')
+        alert('Order Accepted.......')
         setTimeout(()=>{
-            console.log('Food is preparing.......');
+            alert('Food is preparing.......');
         }, 5000);
         
         setTimeout(()=>{
-            console.log('Delicious Food is on the way.....');
+            alert('Delicious Food is on the way.....');
         } ,10000);
         setTimeout(()=>{
-            console.log('Food Devliverd,Thank you.....');
-            console.log('Visit Again......');
+            alert('Food Devliverd,Thank you.....');
+            alert('Visit Again......');
         },15000);
     }
 
