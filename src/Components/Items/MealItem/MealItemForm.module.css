@@ -1,13 +1,19 @@
 .form {
     text-align: right;
+    align-items: center;
+  }
+  .form input{
+    color: rgb(85, 9, 9);
   }
   
   .form button {
     font: inherit;
     cursor: pointer;
-    background-color:rgb(85, 9, 9);;
+    background-color:rgb(85, 9, 9);
     border: 1px solid #8a2b06;
+    padding-top: 50%;
     color: white;
+    align-items: center;
     padding: 0.25rem 2rem;
     border-radius: 20px;
     font-weight: bold;

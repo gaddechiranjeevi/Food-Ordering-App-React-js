@@ -9,6 +9,20 @@ const Cart = (props) => {
 
     const totalAmount = `Rs ${Ctx.totalAmount.toFixed(2)}`;
     const hasItems = Ctx.items.length > 0;
+    const Ordering = ()=>{
+        console.log('Order Accepted.......')
+        setTimeout(()=>{
+            console.log('Food is preparing.......');
+        }, 5000);
+        
+        setTimeout(()=>{
+            console.log('Delicious Food is on the way.....');
+        } ,10000);
+        setTimeout(()=>{
+            console.log('Food Devliverd,Thank you.....');
+            console.log('Visit Again......');
+        },15000);
+    }
 
     const cartItemRemoverHandler = (id) => {
         Ctx.removeItem(id);
@@ -42,7 +56,7 @@ const Cart = (props) => {
             </div>
             <div className={classes.actions}>
             <button className={classes['button--alt']} onClick={props.onClose}>Close</button>
-            {hasItems && <button className={classes.button}>Order</button>}
+            {hasItems && <button className={classes.button} onClick={Ordering}>Order</button>}
             </div>
         </Modal>
     );

@@ -8,6 +8,7 @@
 
 .meal h3 {
   margin: 0 0 0.25rem 0;
+  vertical-align: top;
 }
 
 .description {
@@ -19,4 +20,15 @@
   font-weight: bold;
   color: #ad5502;
   font-size: 1.25rem;
+}
+
+.img {
+  height: 55px;
+  flex-basis: 40%;
+  padding-right: 0.1cm;
+  display: flex;
+  margin-bottom: 1%;
+}
+.meal h3:hover{
+  color: #ad5502;
 }
